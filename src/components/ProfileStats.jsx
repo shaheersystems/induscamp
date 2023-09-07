@@ -1,4 +1,6 @@
 import CourseStats from "./CourseStats";
+import Streak from "./Streak";
+import XPStats from "./XPStats";
 
 function Profile() {
   return (
@@ -48,6 +50,8 @@ function Profile() {
           </button>
         </div>
       </div>
+      <XPStats />
+      <Streak />
       <CourseStats />
     </div>
   );
